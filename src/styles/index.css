@@ -10,3 +10,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.body{
+    background-color: beige;
+    margin-top: 50px;
+}
+.list{
+    background-color: antiquewhite;
+}
+.list h1{
+    background-color: cornsilk;
+    text-align: center;
+}
+ ul li{
+    list-style: none;
+}
