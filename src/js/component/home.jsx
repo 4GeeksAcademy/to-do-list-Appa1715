@@ -24,13 +24,9 @@ const Home = () => {
 						}
 						placeholder="What do we need to do?"/>
 					</li>
-					{list.map((item, index)=> (
-						<li>{item} <i class="fa-solid fa-eraser">onClick={()=> setlist(list.filter((t, currentIndex)=> index))}</i> 
-						</li>
-					))
-					};
+					
 				</ul>
-				<div>{list.length} tasks left. </div>
+				<div> tasks left. </div>
 			</div>
 		</div>
 	);
