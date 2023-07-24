@@ -16,11 +16,27 @@
 }
 .list{
     background-color: antiquewhite;
+    width: 500px;
+    padding: 5px;
+    margin-left: 300px;
+    
 }
 .list h1{
     background-color: cornsilk;
     text-align: center;
 }
- ul li{
+.input{
+    border: 1px;
+    width: 100%;
+}
+.uli {
+    border: 1px;
     list-style: none;
+    padding: 5px;
+    background-color: white;
+}
+
+.footer {
+    background-color: aliceblue;
+    font-size: small;
 }
